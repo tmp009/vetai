@@ -30,7 +30,6 @@ async function processInput(input, data) {
                         .map((vetCase) => `Symptoms: ${vetCase.symptoms}\n diagnosis: ${vetCase.diagnosis}\n treatments: ${vetCase.treatments}\n`)
                         .join('\n')
 
-                        console.log(answers)
     const stream = await runOpenAI(input, answers);
 
     for await (const chunk of stream) {
