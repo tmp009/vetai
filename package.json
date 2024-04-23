@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.19",
+    "openai": "^4.38.2"
+  },
+  "name": "vetai",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmp009/vetai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmp009/vetai/issues"
+  },
+  "homepage": "https://github.com/tmp009/vetai#readme",
+  "description": ""
+}
